@@ -1,0 +1,24 @@
+.scores-container {
+  display: inline-flex;
+  flex-direction: row;
+  width: 35%;
+  height: 10%;
+  position: absolute;
+  top: 0;
+  left:50%;
+  transform: translateX(-50%);
+  align-items: center;
+  justify-content: center;
+
+
+  .spacing{
+    margin:auto
+  }
+
+  div {
+    color: #ff7600;
+    font-family: 'Rammetto One', cursive;;
+    font-size: 34px;
+    text-shadow: 2px 2px 1px black;
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "WIDTH": 1280,
+  "HEIGHT": 720,
+  "BLOCK_DIM": 40,
+  "BG_COLOR": "#333",
+  "BLUR": 5,
+  "bootState": {
+    "TWEEN_DURATION": 500,
+    "GLOW_WIDTH": 15,
+    "BORDER_WIDTH": 5
+  },
+  "menuState": {
+    "BUTTON_TWEEN_DURATION": 1000,
+    "PURPLE": "#ff30d7",
+    "DARK_PURPLE": "#b72597",
+    "AQUA": "#29EDFF",
+    "DARK_AQUA": "#22B3C5"
+  },
+  "levelSelectorState": {
+    "YELLOW": "#ffe700",
+    "LEVEL_SCALE": 8,
+    "BORDER_WIDTH": 1,
+    "LEVEL_BG": "#222",
+    "LEVEL_ROCK_COLOR": "#aaa",
+    "LEVEL_BORDER_COLOR": "#eee",
+    "TWEEN_TEXT_DURATION": 500,
+    "TWEEN_ALPHA_DURATION": 300
+  },
+  "gameState": {
+    "POTION_APPEAR_DURATION": 150,
+    "SNAKE_COLOR": "#0f0"
+  },
+  "levels": [
+    {
+      "initialSpeed": 100,
+      "maxSpeed": 50,
+      "initialX": 10,
+      "initialY": 12,
+      "snakeBodyLength": 5,
+      "obstacles": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": 1
+        },
+        {
+          "x": 31,
+          "y": 17
+        },
+        {
+          "x": 30,
+          "y": 16
+        },
+
+        {
+          "x": 0,
+          "y": 17
+        },
+        {
+          "x": 1,
+          "y": 16
+        },
+        {
+          "x": 31,
+          "y": 0
+        },
+        {
+          "x": 30,
+          "y": 1
+        }
+
+      ]
+    },
+    {
+      "initialSpeed": 80,
+      "maxSpeed": 50,
+      "initialX": 22,
+      "initialY": 14,
+      "snakeBodyLength": 5,
+      "obstacles": [
+        {
+          "x": 0,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 0,
+          "y": 2
+        },
+        {
+          "x": 31,
+          "y": 17
+        },
+        {
+          "x": 31,
+          "y": 16
+        },
+        {
+          "x": 30,
+          "y": 17
+        },
+        {
+          "x": 31,
+          "y": 15
+        },
+        {
+          "x": 29,
+          "y": 17
+        },
+        {
+          "x": 16,
+          "y": 9
+        },
+        {
+          "x": 15,
+          "y": 9
+        },
+        {
+          "x": 14,
+          "y": 9
+        },
+        {
+          "x": 15,
+          "y": 10
+        },
+        {
+          "x": 15,
+          "y": 8
+        }
+      ]
+    }
+  ]
+}
