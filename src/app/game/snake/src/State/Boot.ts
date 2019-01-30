@@ -8,7 +8,7 @@ export class Boot extends Phaser.State implements IState {
 
   preload() {
     this.game.load.image("logo", "assets/pariplay.png");
-    this.game.load.spritesheet('potionView', 'assets/potionView.png', 50, 63, 7);
+    this.game.load.spritesheet('potion', 'assets/potion.png', 50, 63, 7);
   }
 
   create() {

@@ -50,7 +50,7 @@ export class Game extends Phaser.State implements IState {
     this.potionModel = new Potion(this.config.WIDTH / this.config.BLOCK_DIM,
       this.config.HEIGHT / this.config.BLOCK_DIM, this.level.obstacles);
     this.potionModel.calculateNewPosition(this.snake.snakeBody, this.snake.snakeHead);
-    this.potionView = this.game.add.sprite(0, 0, "potionView");
+    this.potionView = this.game.add.sprite(0, 0, "potion");
     this.potionView.position.x = this.potionModel.position.x * this.config.BLOCK_DIM;
     this.potionView.position.y = this.potionModel.position.y * this.config.BLOCK_DIM;
     this.potionView.width = this.config.BLOCK_DIM;
